@@ -25,8 +25,8 @@
                 android:layout_width="39dp"
                 android:layout_height="39dp"
                 android:background="@mipmap/ic_launcher"
-                android:id="@+id/drawer_layout"
                 android:layout_marginRight="5dp"
+                android:id="@+id/toolbar_image"
                 android:layout_centerVertical="true"
                 android:layout_alignParentRight="true"
                 android:layout_alignParentEnd="true" />
