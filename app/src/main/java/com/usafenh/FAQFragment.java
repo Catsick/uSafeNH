@@ -252,7 +252,7 @@ public class FAQFragment extends Fragment{
 
     }
 
-    // Used to create dividing lines between questions
+    // Used to create dividing lines between recycler elements
     public class SimpleDividerItemDecoration extends RecyclerView.ItemDecoration {
         private Drawable mDivider;
 
@@ -280,7 +280,7 @@ public class FAQFragment extends Fragment{
         }
     }
 
-    // Used to create dividing lines between questions
+    // Used to alternate colors between recycler elements
     public class AltColorItemDecoration extends RecyclerView.ItemDecoration {
         private final int backgroundColor1;
         private final int backgroundColor2;

@@ -14,6 +14,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -92,7 +93,7 @@ public class HelpFragment extends Fragment {
 
         final CustomDialog infoDialog = new CustomDialog(mainActivity);
 
-        infoDialog.setTitle(mainActivity.getUserData().getHelpType());
+        infoDialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
 
         infoDialog.show();
     }
